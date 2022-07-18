@@ -1,0 +1,80 @@
+.c-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-container {
+  height: 500px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  /* outline: 3px solid black; */
+}
+
+.c-display {
+  font-family: 'Press Start 2P', cursive;
+  text-align: right;
+  height: 15%;
+  border: none;
+  padding-right: 10px;
+  font-size: 30px;
+  /* overflow:visible; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.c-display:focus {
+  outline: none !important;
+}
+
+.c-keypad {
+  background-color: white;
+  height: 85%;
+  width: inherit;
+  display: flex;
+}
+
+.c-left-keys {
+  height: 100%;
+  width: 75%;
+}
+.c-row {
+  display: flex;
+  height: 20%;
+}
+
+.c-right-keys {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.c-key {
+  height: 100%;
+  width: 33.33%;
+}
+
+.c-key-plus {
+  height: 40%;
+}
+.c-key-equal {
+  height: 60%;
+}
+
+button {
+  border: 1px solid white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+button:hover {
+  background-color: rgb(207, 207, 207);
+}
+
+button:active {
+  background-color: rgba(243, 179, 159, 0.466);
+}
